@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     libpoppler-cpp-dev \
     poppler-utils \
     tesseract-ocr \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
