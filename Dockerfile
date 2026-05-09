@@ -8,7 +8,7 @@ FROM python:3.10-slim
 
 # Set working directory
 WORKDIR /app
-
+ 
 # Install system dependencies (for PDF parsing, etc.)
 RUN apt-get update && apt-get install -y \
     build-essential \
